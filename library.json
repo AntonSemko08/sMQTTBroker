@@ -1,0 +1,25 @@
+{
+  "name": "sMQTTBroker",
+  "version": "1.1.0",
+  "description": "MQTT 3.1.1 broker library for ESP32/ESP8266 with full Last Will and Testament (LWT) support.",
+  "keywords": "mqtt, broker, lwt, last-will, esp32, esp8266, arduino, iot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonSemko08/sMQTTBroker.git"
+  },
+  "authors": [
+    {
+      "name": "Anton Semko",
+      "email": "zedpop91@gmail.com",
+      "url": "https://github.com/AntonSemko08",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "espressif32, espressif8266",
+  "headers": "sMQTTBroker.h",
+  "export": {
+    "include": ["src"]
+  }
+}
